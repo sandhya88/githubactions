@@ -1,2 +1,11 @@
 name: first workflow
+on: push
+jobs:
+  first_Job: 
+    runs-on: ubuntu_latest
+    steps:
+      - name: print hello world
+        run: echo "Hellow world"
+      
+
 
